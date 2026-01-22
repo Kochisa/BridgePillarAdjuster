@@ -1,6 +1,6 @@
-﻿using Colossal.IO.AssetDatabase;
+using Colossal.IO.AssetDatabase;
 using Colossal.Logging;
-using ConfigurableElevatedRoad.Systems;
+using BridgePillarAdjuster.Systems;
 using Game;
 using Game.Modding;
 using Game.SceneFlow;
@@ -9,13 +9,13 @@ using System.Linq;
 using Unity.Entities;
 
 
-namespace ConfigurableElevatedRoad
+namespace BridgePillarAdjuster
 {
     public class Mod : IMod
     {
-        public static ILog log = LogManager.GetLogger($"{nameof(ConfigurableElevatedRoad)}").SetShowsErrorsInUI(false);
+        public static ILog log = LogManager.GetLogger("BridgePillarAdjuster").SetShowsErrorsInUI(false);
         public static Setting setting { get; private set; }
-        public static readonly string harmonyID = "Jimmyok.ConfigurableElevatedRoad";
+        public static readonly string harmonyID = "kyrrin.BridgePillarAdjuster";
 
         public void OnLoad(UpdateSystem updateSystem)
         {
@@ -29,7 +29,7 @@ namespace ConfigurableElevatedRoad
             GameManager.instance.localizationManager.AddSource("en-US", new LocaleEN(setting));
             GameManager.instance.localizationManager.AddSource("zh-HANS", new LocaleCN(setting));
 
-            AssetDatabase.global.LoadSettings(nameof(ConfigurableElevatedRoad), setting, new Setting(this));
+            AssetDatabase.global.LoadSettings("BridgePillarAdjuster", setting, new Setting(this));
 
             var harmony = new Harmony(harmonyID);
             harmony.PatchAll(typeof(Mod).Assembly);
@@ -39,7 +39,7 @@ namespace ConfigurableElevatedRoad
             {
                 log.Info($"Patched method: {patchedMethod.Module.Name}:{patchedMethod.Name}");
             }
-            World.DefaultGameObjectInjectionWorld.GetOrCreateSystem<NetCompositionDataFixSystem>();
+            World.DefaultGameObjectInjectionWorld.GetOrCreateSystemManaged<NetCompositionDataFixSystem>();
             updateSystem.UpdateAfter<NetCompositionDataFixSystem>(SystemUpdatePhase.PrefabUpdate);
             updateSystem.UpdateBefore<NetCompositionDataFixSystem>(SystemUpdatePhase.PrefabReferences);
         }
