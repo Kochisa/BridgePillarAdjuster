@@ -1,15 +1,15 @@
-﻿using Colossal;
+using Colossal;
 using Colossal.IO.AssetDatabase;
-using ConfigurableElevatedRoad.Systems;
+using BridgePillarAdjuster.Systems;
 using Game.Modding;
 using Game.Settings;
 using System.Collections.Generic;
 using Unity.Entities;
 
 
-namespace ConfigurableElevatedRoad
+namespace BridgePillarAdjuster
 {
-    [FileLocation(nameof(ConfigurableElevatedRoad))]
+    [FileLocation("BridgePillarAdjuster")]
     [SettingsUIGroupOrder(kEnabledGroup, kLengthRoadGroup, kSteepnessGroup, kResetGroup)]
     [SettingsUIShowGroupName(kEnabledGroup, kLengthRoadGroup, kSteepnessGroup, kResetGroup)]
     public class Setting : ModSetting
@@ -175,7 +175,7 @@ namespace ConfigurableElevatedRoad
         {
             return new Dictionary<string, string>
             {
-                { m_Setting.GetSettingsLocaleID(), "Configurable Elevated Road v1.0" },
+                { m_Setting.GetSettingsLocaleID(), "BridgePillarAdjuster" },
                 { m_Setting.GetOptionTabLocaleID(Setting.kSectionGeneral), "Configurations" },
 
                 { m_Setting.GetOptionGroupLocaleID(Setting.kEnabledGroup), "Enabling Options" },
@@ -225,7 +225,7 @@ namespace ConfigurableElevatedRoad
         {
             return new Dictionary<string, string>
             {
-                { m_Setting.GetSettingsLocaleID(), "可调节高架道路 v1.0" },
+                { m_Setting.GetSettingsLocaleID(), "桥墩调节器" },
                 { m_Setting.GetOptionTabLocaleID(Setting.kSectionGeneral), "调节选项" },
 
                 { m_Setting.GetOptionGroupLocaleID(Setting.kEnabledGroup), "启停选项" },
