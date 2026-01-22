@@ -1,11 +1,11 @@
-﻿// <copyright file="Patcher.cs" company="algernon (K. Algernon A. Sheppard)">
+// <copyright file="Patcher.cs" company="algernon (K. Algernon A. Sheppard)">
 // Copyright (c) algernon (K. Algernon A. Sheppard). All rights reserved.
 // Licensed under the Apache Licence, Version 2.0 (the "License"); you may not use this file except in compliance with the License.
 // See LICENSE.txt file in the project root for full license information.
 // </copyright>
 
 // See: https://github.com/algernon-A/FiveTwentyNineTiles/blob/master/Code/Patches/Patcher.cs
-namespace ConfigurableElevatedRoad
+namespace BridgePillarAdjuster
 {
     using System;
     using System.Linq;
@@ -72,7 +72,7 @@ namespace ConfigurableElevatedRoad
 
                 try
                 {
-                    harmonyInstance.UnpatchAll("_harmonyID");
+                    harmonyInstance.UnpatchAll(_harmonyID);
 
                     // Clear applied flag.
                     PatchesApplied = false;
