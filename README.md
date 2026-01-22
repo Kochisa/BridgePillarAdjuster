@@ -1,32 +1,16 @@
-If you want anarchy around elevated road construction,this mod suits you. With this mod, you are able to construction elevated roads/bridges/intersections at ease, free from the annoying pillars/steepness/length restrictions, and even build a roller coaster of road!
-
-## Feature
-
-* Configurable pillar interval (20m-800m).
-* Optional no pillar construction mode.
-* Configurable maximum edge section length (20m-800m).
-* Optional no height limitation construction mode, that lifts the height restriction to 1000m.
-* Optional no steepness limitation construction mode.
-* One-click options to restore vanilla/mod default settings.
-* The above settings all appear in the game setting menu and are recommended to be configured in-game. The changes you've made **immediately take effect** and persist in the configuration file.
-	
-## Important Notes
-
-* This mod affects save games, as the road/bridges/tracks you've built are just there.
-* This mod is currently BETA and still needs more testing. FEEDBACKS are most welcomed(via Github issues).
-* Setting the maximum edge length to extreme values would possibly cause weird behaviors, e.g. extremely difficult to delete a piece of road. Please be cautious when playing with the maximum edge length.
-
-## Technical
-
-* Modified System: None
-
-## Changelog
-
-- v1.0.2
-  - Fixed a bug that leads to all sorts of weird behaviors when updating existing roads.
-
-* v1.0.1
-	* Fixed compatibility with ExtraLib and all mods that depend on it.
-
-* v1.0.0
-  * Mod exists for beta.
+介绍
+Introduction
+目前游戏中的桥墩间距已严重脱离现实，导致一个桥要横跨6x6的建筑物都费劲。于是我修复了作者jimmyok的ConfigurableElevatedRoad MOD，使它可以在1.5.x版本正常工作，现在你可以自由的调整桥墩间距。
+Currently, the spacing of overpass piers in the game is wildly unrealistic, making it a struggle for a single bridge to span even a 6x6 building. To address this, I fixed the ConfigurableElevatedRoad mod originally made by jimmyok, enabling it to work properly with version 1.5.x — now you can freely adjust the spacing of overpass piers at will.
+MOD功能
+MOD Features
+无桥墩建造模式
+无限高度建造模式
+自定义区段长度
+自定义桥墩间距
+无限坡度建造模式
+Pier-Free Construction Mode
+Unlimited Height Construction Mode
+Custom Elevated length
+Custom Pillar interval
+Unlimited Slope Construction Mode
