@@ -1,0 +1,12 @@
+C:\Users\Moy\source\repos\UnlimitedElevatedRoad\bin\Release\net48\BridgePillarAdjuster.dll
+C:\Users\Moy\source\repos\UnlimitedElevatedRoad\bin\Release\net48\BridgePillarAdjuster.pdb
+C:\Users\Moy\source\repos\UnlimitedElevatedRoad\bin\Release\net48\0Harmony.dll
+C:\Users\Moy\source\repos\UnlimitedElevatedRoad\obj\Release\net48\ConfigurableElevatedRoad.csproj.AssemblyReference.cache
+C:\Users\Moy\source\repos\UnlimitedElevatedRoad\obj\Release\net48\ConfigurableElevatedRoad.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Moy\source\repos\UnlimitedElevatedRoad\obj\Release\net48\ConfigurableElevatedRoad.AssemblyInfoInputs.cache
+C:\Users\Moy\source\repos\UnlimitedElevatedRoad\obj\Release\net48\ConfigurableElevatedRoad.AssemblyInfo.cs
+C:\Users\Moy\source\repos\UnlimitedElevatedRoad\obj\Release\net48\ConfigurableElevatedRoad.csproj.CoreCompileInputs.cache
+C:\Users\Moy\source\repos\UnlimitedElevatedRoad\obj\Release\net48\ConfigurableElevatedRoad.sourcelink.json
+C:\Users\Moy\source\repos\UnlimitedElevatedRoad\obj\Release\net48\Configur.2C14297F.Up2Date
+C:\Users\Moy\source\repos\UnlimitedElevatedRoad\obj\Release\net48\BridgePillarAdjuster.dll
+C:\Users\Moy\source\repos\UnlimitedElevatedRoad\obj\Release\net48\BridgePillarAdjuster.pdb

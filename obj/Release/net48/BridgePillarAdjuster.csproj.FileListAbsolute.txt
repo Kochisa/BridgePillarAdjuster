@@ -1,0 +1,12 @@
+C:\Users\Moy\source\repos\BridgePillarAdjuster\bin\Release\net48\BridgePillarAdjuster.dll
+C:\Users\Moy\source\repos\BridgePillarAdjuster\bin\Release\net48\BridgePillarAdjuster.pdb
+C:\Users\Moy\source\repos\BridgePillarAdjuster\bin\Release\net48\0Harmony.dll
+C:\Users\Moy\source\repos\BridgePillarAdjuster\obj\Release\net48\BridgePillarAdjuster.csproj.AssemblyReference.cache
+C:\Users\Moy\source\repos\BridgePillarAdjuster\obj\Release\net48\BridgePillarAdjuster.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Moy\source\repos\BridgePillarAdjuster\obj\Release\net48\BridgePillarAdjuster.AssemblyInfoInputs.cache
+C:\Users\Moy\source\repos\BridgePillarAdjuster\obj\Release\net48\BridgePillarAdjuster.AssemblyInfo.cs
+C:\Users\Moy\source\repos\BridgePillarAdjuster\obj\Release\net48\BridgePillarAdjuster.csproj.CoreCompileInputs.cache
+C:\Users\Moy\source\repos\BridgePillarAdjuster\obj\Release\net48\BridgePillarAdjuster.sourcelink.json
+C:\Users\Moy\source\repos\BridgePillarAdjuster\obj\Release\net48\BridgePi.6A15FFBE.Up2Date
+C:\Users\Moy\source\repos\BridgePillarAdjuster\obj\Release\net48\BridgePillarAdjuster.dll
+C:\Users\Moy\source\repos\BridgePillarAdjuster\obj\Release\net48\BridgePillarAdjuster.pdb

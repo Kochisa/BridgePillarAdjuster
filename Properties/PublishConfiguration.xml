@@ -1,0 +1,45 @@
+﻿<Publish>
+	<!--Id must be set in order to update existed mod. it is not required for publishing mod for the first time-->
+	<Id Value="132336" />
+	<!--Name of the mod to display to players-->
+	<DisplayName Value="BridgePillarAdjuster" />
+	<!--Short description of the mod-->
+	<ShortDescription Value="一个调节立交桥墩间距的MOD / A mod that adjusts the spacing of overpass piers" />
+	<!--Long description of the mod. Single line or multi line. Supports minimal markdown subset-->
+	<LongDescription>
+目前游戏中的桥墩间距已严重脱离现实，导致一个桥要横跨 6x6 建筑物都费劲。于是我修复了作者 jimmyok 的 ConfigurableElevatedRoad MOD，使它可以在 1.5.x 版本正常工作，现在你可以自由地调整桥墩间距。
+
+Currently, the spacing of overpass piers in the game is wildly unrealistic, making it a struggle for a single bridge to span even a 6x6 building. To address this, I fixed the ConfigurableElevatedRoad mod originally made by jimmyok, enabling it to work properly with version 1.5.x — now you can freely adjust the spacing of overpass piers at will.
+
+MOD 功能 / MOD Features:
+- 无桥墩建造模式 / Pier-Free Construction Mode
+- 无限高度建造模式 / Unlimited Height Construction Mode
+- 自定义区段长度 / Custom Elevated Length
+- 自定义桥墩间距 / Custom Pillar Interval
+- 无限坡度建造模式 / Unlimited Slope Construction Mode
+	</LongDescription>
+	<!--Thumbnail-->
+	<Thumbnail Value="Thumbnail.jpg" />
+	<!--Screenshot, can be set multiple times-->
+	<Screenshot Value="docs/1.jpg" />
+	<Screenshot Value="docs/2.jpg" />
+	<!--Tag, can be set multiple times-->
+	<Tag Value="Code Mod" />
+	<!--Link to the forum post where the mod can be discussed-->
+	<ForumLink Value="" />
+	<!--Version of the mod-->
+	<ModVersion Value="1.2" />
+	<!--Recommended version of the base game to use the mod-->
+	<GameVersion Value="1.5.*" />
+	<!--Dependency for the mod, can be set multiple times-->
+	<Dependency Id="" />
+	<!--Change log for new version. Single line or multi line. Supports minimal markdown subset-->
+	<ChangeLog>	
+v1.2
+* 修复并兼容 1.5.x
+v1.1
+* 修复 bug
+v1.0
+* 初次发布
+	</ChangeLog>
+</Publish>

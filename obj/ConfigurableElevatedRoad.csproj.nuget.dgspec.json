@@ -1,0 +1,59 @@
+{
+  "format": 1,
+  "restore": {
+    "C:\\Users\\Moy\\source\\repos\\UnlimitedElevatedRoad\\ConfigurableElevatedRoad.csproj": {}
+  },
+  "projects": {
+    "C:\\Users\\Moy\\source\\repos\\UnlimitedElevatedRoad\\ConfigurableElevatedRoad.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\Moy\\source\\repos\\UnlimitedElevatedRoad\\ConfigurableElevatedRoad.csproj",
+        "projectName": "BridgePillarAdjuster",
+        "projectPath": "C:\\Users\\Moy\\source\\repos\\UnlimitedElevatedRoad\\ConfigurableElevatedRoad.csproj",
+        "packagesPath": "C:\\Users\\Moy\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Moy\\source\\repos\\UnlimitedElevatedRoad\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\Moy\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net48"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net48": {
+            "targetAlias": "net48",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        },
+        "SdkAnalysisLevel": "10.0.100"
+      },
+      "frameworks": {
+        "net48": {
+          "targetAlias": "net48",
+          "dependencies": {
+            "Lib.Harmony": {
+              "target": "Package",
+              "version": "[2.2.2, )"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\10.0.102\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}

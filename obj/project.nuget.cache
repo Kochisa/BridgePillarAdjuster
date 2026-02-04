@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "UPYDDCuTgEQ=",
+  "success": true,
+  "projectFilePath": "C:\\Users\\Moy\\source\\repos\\BridgePillarAdjuster\\BridgePillarAdjuster.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\Moy\\.nuget\\packages\\lib.harmony\\2.2.2\\lib.harmony.2.2.2.nupkg.sha512"
+  ],
+  "logs": []
+}

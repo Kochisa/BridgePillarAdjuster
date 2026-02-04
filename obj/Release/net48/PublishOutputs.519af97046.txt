@@ -1,0 +1,3 @@
+C:\Users\Moy\source\repos\BridgePillarAdjuster\bin\Release\net48\publish\BridgePillarAdjuster.dll
+C:\Users\Moy\source\repos\BridgePillarAdjuster\bin\Release\net48\publish\BridgePillarAdjuster.pdb
+C:\Users\Moy\source\repos\BridgePillarAdjuster\bin\Release\net48\publish\0Harmony.dll
